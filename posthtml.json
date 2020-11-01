@@ -1,0 +1,11 @@
+{
+    "input": "dev/html/*.html",
+    "output": "./pub",
+    "plugins": {
+        "posthtml-modules": {
+            "root": "./dev/html",
+            "initial": true
+        },
+        "htmlnano": {}
+    }
+}

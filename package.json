@@ -1,0 +1,21 @@
+{
+  "name": "dillonjordanphotos",
+  "version": "1.0.0",
+  "description": "djp x mdco",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:html": "posthtml -c posthtml.json",
+    "serve": "browser-sync start --server=\"pub\" --files=\"pub\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonshotdesignco/dillonjordanphotos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonshotdesignco/dillonjordanphotos/issues"
+  },
+  "homepage": "https://github.com/moonshotdesignco/dillonjordanphotos#readme"
+}
